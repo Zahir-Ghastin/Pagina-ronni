@@ -1,0 +1,81 @@
+/* HEADER Y FOOTER */
+header{
+    height: 107px;
+    background-color: aquamarine;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+/* LOGO */
+.logo img {
+    width: 200px;
+    position: relative;
+    top: 0px; 
+    left: -25px;
+    float : right;
+}
+/* EDICION CARRUSEL FOTOS */
+.carousel{
+    width: 50%;
+    position: center;
+    top: 15%;
+    left: 24%;
+}
+/* BOTOS SERVICIOS Y CAJAS DE SERVICIOS */
+/* SERVICIOS */
+.TS{
+    position: absolute;
+    top: 80%;
+    left: 45%;
+}
+
+/* CAJA 1 */
+.BS1{
+    width: 350px;
+    position: absolute;
+    top: 85%;
+    left: 10%;
+}
+/* CAJA 2 */
+.BS2{
+    width: 350px;
+    position: absolute;
+    top: 85%;
+    left: 40%;
+}
+/* CAJA 3 */
+.BS3{
+    width: 350px;
+    position: absolute;
+    top: 85%;
+    left: 65%;
+}
+/* CAJA 4 */
+.BS4{
+    width: 350px;
+    position: absolute;
+    top: 95%;
+    left: 52%;
+}
+/* CAJA 5 */
+.BS5{
+    width: 350px;
+    position: absolute;
+    top: 95%;
+    left: 25%;
+}
+/* SOBRE NOSOTROS Y CAJAS INFO */
+/* QUIENES SOMOS */
+.TQS{
+    position: absolute;
+    top: 105%;
+    left: 45%;
+}
+
+.BS6{
+    width: 350px;
+    position: absolute;
+    top: 110%;
+    left: 43.6%;
+}
