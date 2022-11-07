@@ -77,5 +77,19 @@ header{
     width: 350px;
     position: absolute;
     top: 110%;
-    left: 43.6%;
+    left: 53%;
+}
+
+.BS7{
+    width: 350px;
+    position: absolute;
+    top: 110%;
+    left: 35%;
+}
+
+.BS8{
+    width: 350px;
+    position: absolute;
+    top: 120%;
+    left: 45.5%;
 }
