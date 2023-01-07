@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ingenieria JPM</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="scss/styles.css">
     <link rel="stylesheet" href="estilos.css">
   </head>
   <body>
@@ -13,26 +14,33 @@
     <header>
         <div class="logo"><img src="images\logo.png" alt="JPM"></div>
     </header>
-    <h2>el color no es def</h2>
     <!-- CARRUSEL DE FOTOS -->
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div id="carruselAD" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carruselAD" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carruselAD" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carruselAD" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carruselAD" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="images\foto1.jpg" class="d-block w-100" alt="IMAGEN1">
+            <img src="images/foto1.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="images\foto2.jpg" class="d-block w-100" alt="IMAGEN2">
+            <img src="images/foto2.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="images\foto3.jpg" class="d-block w-100" alt="IMAGEN3">
+            <img src="images/foto3.jpg" class="d-block w-100" alt="...">
           </div>
-    <!-- BOTON DEL CARRUSEL -->
+          <div class="carousel-item">
+            <img src="images/foto4.jpg" class="d-block w-100" alt="...">
+          </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carruselAD" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Anterior</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carruselAD" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Siguiente</span>
         </button>
@@ -41,7 +49,7 @@
     <!-- MODAL BOTONES -->
         <!-- TTITULO servicios -->
         <div class="TS">
-            <h4><span class="badge bg-secondary">Servicios</span></h4>
+            <h4><span class="badge bg-dark">Servicios</span></h4>
         </div>
 
     <!-- BOTON 1 -->
@@ -61,7 +69,8 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        
+                        Servicio de mantenimiento de trasformadores de Media Tensión, suministro e instalación de trasnformadores y sub-estaciones aereas
+                        <img src="images/modal1.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -90,7 +99,8 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-            ...
+                Implementacion de iluminación led con carcasas antibandalicas para evitar el bandalismo y daño en la iluminación
+                <img src="images/modal2.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -116,7 +126,8 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-            .
+                Realizamos la instalacion de postación y lineas de Media Tensión segun el requerimiento
+                <img src="images/modal3.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -143,6 +154,7 @@
             </div>
             <div class="modal-body">
             ....
+            <img src="images/modal5.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -168,7 +180,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                ....
+                    
+                    <img src="images/modal5.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -180,7 +193,7 @@
         
         <!-- TTITULO Quienes somos -->
         <div class="TQS">
-            <h4><span class="badge bg-secondary">Empresa</span></h4>
+            <h4><span class="badge bg-dark">Empresa</span></h4>
         </div>
         
         <!-- BOTON 6 -->
@@ -260,8 +273,10 @@
                 </div>
             </div>
             </div>
-        
+            <div class="espacio">
+                <p> .  </p>
+            </div>
         <!-- BOTON  -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
 </html>

@@ -1,12 +1,16 @@
+/* ----------------------------NO TOCAR------------------------------------ */
+
 /* HEADER Y FOOTER */
 header{
     height: 107px;
-    background-color: aquamarine;
+    background-color: rgba(172, 176, 173, 0.797);
     justify-content: space-between;
     padding: 10px;
 }
 
-
+body{
+    background-color: rgb(216, 212, 212);
+}
 /* LOGO */
 .logo img {
     width: 200px;
@@ -18,37 +22,37 @@ header{
 /* EDICION CARRUSEL FOTOS */
 .carousel{
     width: 50%;
-    position: center;
-    top: 15%;
+    position: absolute;
+    top: 18%;
     left: 24%;
 }
 /* BOTOS SERVICIOS Y CAJAS DE SERVICIOS */
 /* SERVICIOS */
 .TS{
     position: absolute;
-    top: 80%;
-    left: 45%;
+    top: 81%;
+    left: 46%;
 }
 
 /* CAJA 1 */
 .BS1{
     width: 350px;
     position: absolute;
-    top: 85%;
-    left: 10%;
+    top: 87%;
+    left: 8%;
 }
 /* CAJA 2 */
 .BS2{
     width: 350px;
     position: absolute;
-    top: 85%;
-    left: 40%;
+    top: 87%;
+    left: 39%;
 }
 /* CAJA 3 */
 .BS3{
     width: 350px;
     position: absolute;
-    top: 85%;
+    top: 87%;
     left: 65%;
 }
 /* CAJA 4 */
@@ -56,40 +60,46 @@ header{
     width: 350px;
     position: absolute;
     top: 95%;
-    left: 52%;
+    left: 51%;
 }
 /* CAJA 5 */
 .BS5{
     width: 350px;
     position: absolute;
     top: 95%;
-    left: 25%;
+    left: 23%;
 }
 /* SOBRE NOSOTROS Y CAJAS INFO */
 /* QUIENES SOMOS */
 .TQS{
     position: absolute;
     top: 105%;
-    left: 45%;
+    left: 46%;
 }
 
 .BS6{
     width: 350px;
     position: absolute;
-    top: 110%;
-    left: 53%;
+    top: 111%;
+    left: 51%;
 }
 
 .BS7{
     width: 350px;
     position: absolute;
-    top: 110%;
+    top: 111%;
     left: 35%;
 }
 
 .BS8{
     width: 350px;
     position: absolute;
-    top: 120%;
+    top: 118%;
     left: 45.5%;
+}
+
+.espacio{
+    position: absolute;
+    top: 128%;
+    color: rgba(255, 255, 255, 0);
 }

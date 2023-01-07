@@ -1,0 +1,33 @@
+// Patron de colores
+$principal: #adb5bd;
+// ...................
+$primary: $principal;
+$btn-white-space: nowrap;
+
+
+
+@import"../libs/bootstrap/scss/bootstrap";
+
+.btn-primary{
+  padding: 7px 40px;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.20);
+  border-left: 1px solid rgba(0, 0, 0, 0.20);
+  border-right: 1px solid rgba(0, 0, 0, 0.20);
+  border-radius: 0%;
+}
+
+.carousel-item{
+    border-bottom: 3px solid rgba(0, 0, 0, 0.25);
+}
+
+.bg-secondary{
+    border-radius: 0%;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.20);
+    border-left: 1px solid rgba(0, 0, 0, 0.20);
+    border-right: 1px solid rgba(0, 0, 0, 0.20)
+}
+
+.badge{
+  border-radius: 0%;
+
+}
